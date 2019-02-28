@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8" />
+        <Link rel="stylesheet" href="navBar.css" />
+        <Link rel="stylesheet" href="signup.css" />
+        <Link rel="stylesheet" href="CV.html" />
+        <Link rel="stylesheet" href="CV.css" />
+        <title>Poste ton CV</title>
+            <nav>
+                <ul>
+                    <li><a id="accueil" target="_blank" href="CV.html"><span>Accueil</span></a></li>
+                    <li><a href="#debut"><span>S'inscrire</span></a></li>
+                    <li><a href="" target="_blank"><span>CV</span></a></li>
+                </ul>
+                </ul>
+                <div class="right">
+                    <img src="user-2493635_960_720.png" alt="logo user">
+                    <div class="login">
+                        <form action="index.html" method="post">
+                            <input type="email" name="email" placeholder="Adresse Mail">
+                            <input type="password" name="password" placeholder="Mot de passe">
+                            <button type="submit" name="submit">Se connecter</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <body>
+        <main>
+            <br><br><br><br><br>
+            <form action="signup.html" method="post"><br>
+                <label for="genre">Genre : </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="genre">
+                    <option value="f">Madame</option>
+                    <option value="h">Monsieur</option>
+                    <option value="na">Ne souhaite pas préciser</option>
+                </select>
+
+                <br><br>
+                <label for="firstname">*Prénom : </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="firstname" placeholder="Prénom :" required><br><br>
+
+                <label for="lastname">*Nom : </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="lastname" placeholder="Nom :" required><br><br>
+
+                <label for="birthdate">*Date de naissance : </label>
+                &nbsp;&nbsp;&nbsp;
+                <input type="date" name="birthdate" required><br><br>
+
+                <label for="email">*Adresse mail : </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="email" placeholder="Adresse mail" required><br><br>
+
+                <label for="phone">Numéro de téléphone : </label>
+                <input type="tel" name="phone" placeholder="Téléphone"><br><br>
+
+                <label for="password">*Mot de passe : </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" name="password" required><br><br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="password" name="password2" required><br><br>
+
+                <label for="address">*Adresse : </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="adresse" placeholder="Numéro et nom de rue" required><br><br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="number" name="zipcode" placeholder="Code postal" required><br><br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="text" name="city" placeholder="Nom de la ville" required><br><br><br><br>
+
+                <label for="">Précision sur l'adresse :</label><br>:
+                <textarea name="name" rows="8" cols="80"></textarea><br><br>
+
+                <!-- cgu = condition d'utilisation-->
+                <input type="checkbox" name="cgu" value="" required>J'accepte les conditions d'utilisation.<br><br>
+
+                <button type="submit" name="button">S'incrire</button> <!--ou type button pour ne pas aller ailleurs-->
+                <button type="reset" name="button">Vider le formulaire</button>
+            </form>
+            <!-- <input type="range" min="0" max="10"> -->
+            <!-- <input type="color"> -->
+        </main>
+    </body>
+</html>

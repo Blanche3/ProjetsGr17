@@ -1,0 +1,75 @@
+ul, body {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    text-align: center;
+    height: 100px;
+    background-color: #607D8B;
+}
+
+header nav div.right {
+    position: relative;
+    float: right;
+    height: 100%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+header nav div.right img {
+    height: 100%;
+}
+
+header nav div.right .login {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    
+    padding: 10px 20px;
+    background: #607D8B;
+}
+
+
+header nav div.right:not(:hover) .login {
+    display: none;
+}
+
+header nav ul {
+    height: 100%;
+    display: inline-block;
+}
+
+header nav ul li #accueil {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+}
+
+header nav ul li {
+    display: flex;
+    display: inline-block;
+    height: 100%;
+    
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #0000055;
+}
+
+header nav ul li a {
+    display: inline-flex;
+    align-items: center;
+    
+    padding: 0 30px;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    
+    transtion: all 2s linear;
+}
+
+header nav ul li a:hover {
+    color: darkred;
+    background-color: bisque;
+    transition: background-color 2s linear;
+}
