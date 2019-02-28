@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1551284081 source:y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\historique.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+	"Historique.h"
+	"Tools.h"
+
+1551283165 y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\historique.h
+
+1543158430 y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\tools.h
+
+1543094824 source:y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+	"Tools.h"
+	"Menu.h"
+
+1543094960 y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\menu.h
+
+1551284068 source:y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\menu.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<windows.h>
+	"Tools.h"
+	"Menu.h"
+	"Types.h"
+	"Historique.h"
+
+1551279830 y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\types.h
+
+1544219330 source:y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\tools.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+	<stdbool.h>
+	"Tools.h"
+
+1551284025 source:y:\astrid\ecole\ynov\b1\projets\unitédeformation\projetdev\projetdev\types.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+	"Historique.h"
+	"Tools.h"
+
